@@ -1,0 +1,115 @@
+/* Container to center form
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: #333;
+  } */
+  
+  /* Form container styling */
+  .formWrapper {
+    width: 95%;
+   
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    
+  }
+  
+  /* Form heading */
+  .heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  /* Subheading */
+  .subheading {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  
+  /* Input fields styling */
+  .input {
+    width: calc(100% - 60px);
+    padding: 14px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 15px;
+    padding-right: 50px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input1{
+    padding: 14px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-right: 50px;
+    background-color: #ff9800;
+    transition: border-color 0.3s ease;
+  }
+  .input:focus {
+    border-color: #0072ff;
+  }
+  
+  /* Unit button styling */
+  .unitButton {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 15px;
+    cursor: default;
+  }
+  
+  /* File input styling */
+  .fileInputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fileInput {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  .fileInputIcon {
+    position: absolute;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #ff9800;
+    cursor: pointer;
+  }
+  
+  /* Message styling */
+  .message {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #777;
+    text-align: left;
+  }
+  

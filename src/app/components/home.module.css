@@ -1,0 +1,99 @@
+/* home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 40px;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0px;
+  }
+  
+  .image {
+    width: 100%;
+    
+  }
+  
+  /* Bottom Section - Text and Video Side by Side */
+  .bottomSection {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .textContainer {
+    max-width: 450px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  
+  }
+  
+  .colorLine {
+    height: 4px;
+    width: 100px;
+    background: linear-gradient(to right, green, orange, blue, pink);
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .aboutButton {
+    background-color: #f0a500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .aboutButton:hover {
+    background-color: #d99000;
+  }
+  
+  .videoContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+    left:15%
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .video {
+      width: 80%; /* Adjust for larger screens if desired */
+      max-height: 500px;
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+   
+  }
+  .mar{
+    margin-top: 0px;
+  }
+  .sectionTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #333;
+  }
+  
+  .popularCities {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .cityCard {
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cityCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .cityImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .cityName {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+  
+  .otherCities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+    padding: 10px;
+    color: #555;
+  }
+  
+  .otherCityName {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #666;
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .otherCityName:hover {
+    color: #333;
+  }
+  

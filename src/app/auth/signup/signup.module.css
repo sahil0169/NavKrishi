@@ -1,0 +1,40 @@
+/* AuthForm.module.css */
+
+.signupPrompt {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signupLink {
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .signupLink:hover {
+    color: #357abd;
+    text-decoration: underline;
+  }
+  .logoContainer {
+    flex: 1;
+    margin-right: auto;
+    margin-left:auto;
+    background-color: #E4F5E9; /* Light green background */
+    height: 80px;
+  
+  }
+  
+  .logo {
+    height: 60px;
+    width: 250px;
+    display: block;
+    margin-right: auto;
+  padding: 10px;
+    margin-left:auto;
+    cursor: pointer;
+  
+  }
+  
