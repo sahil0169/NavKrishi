@@ -9,7 +9,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import Navbar from "C:/Users/SAHIL AGARWAL/Downloads/Agriculture/NavKrishi/src/app/components/Navbar.js"
+import Navbar from "../components/Navbar"
 
 export default function CropApp() {
   const WEEK_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
