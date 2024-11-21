@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import DataTable from './DataTable.js'; 
 import styles from './state.module.css';
-import Navbar from "C:/Users/SAHIL AGARWAL/Downloads/Agriculture/NavKrishi/src/app/components/Navbar.js"
+import Navbar from "../../components/Navbar.js"
 
 
 const stateOptions = [
